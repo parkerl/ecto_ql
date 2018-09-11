@@ -51,7 +51,6 @@ defmodule EctoQl.Repo.Migrations.AddFishingSpotStructure do
       add(:weight, :decimal)
       add(:length, :decimal)
       add(:notes, :text)
-
       add(:fisherman_id, references(:fishermen))
       add(:location_id, references(:locations))
       add(:fly_type_id, references(:fly_types))

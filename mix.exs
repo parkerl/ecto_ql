@@ -25,10 +25,8 @@ defmodule EctoQl.MixProject do
       {:ecto, git: "https://github.com/elixir-lang/ecto.git"},
       {:postgrex, "~> 0.14.0-dev",
        [
-         env: :prod,
          git: "https://github.com/elixir-ecto/postgrex.git",
-         optional: true,
-         ref: "6cabc3b"
+         override: true
        ]}
     ]
   end

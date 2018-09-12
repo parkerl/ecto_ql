@@ -3,5 +3,6 @@
   "db_connection": {:git, "https://github.com/elixir-ecto/db_connection.git", "854d917721b820576da4b74b3620bf359c61179f", [ref: "854d917"]},
   "decimal": {:hex, :decimal, "1.5.0", "b0433a36d0e2430e3d50291b1c65f53c37d56f83665b43d79963684865beab68", [:mix], [], "hexpm"},
   "ecto": {:git, "https://github.com/elixir-lang/ecto.git", "bba34c5ba218537bf196630179e4934946ab94e0", []},
+  "faker": {:hex, :faker, "0.10.0", "367c2ae47e7b4ac6410e1eaa880c07b5fe4194476f697d37ac1ce25f3058aae2", [:mix], [], "hexpm"},
   "postgrex": {:git, "https://github.com/elixir-ecto/postgrex.git", "6cabc3b018cabc6e036e7d162414889a20785b96", []},
 }

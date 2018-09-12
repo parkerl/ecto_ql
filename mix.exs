@@ -22,6 +22,7 @@ defmodule EctoQl.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
+      {:faker, "~> 0.10.0"},
       {:ecto, git: "https://github.com/elixir-lang/ecto.git"},
       {:postgrex, "~> 0.14.0-dev",
        [
